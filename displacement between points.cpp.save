@@ -1,0 +1,50 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+struct point
+{
+    double a;
+    double b;
+    double c;
+};
+
+int n;
+
+point sub(point x[], int n)
+{
+
+    point diff = { 0, 0, 0 };
+    diff.a = pow((x[0].a - x[1].a), 2);
+    diff.b = pow((x[0].b - x[1].b), 2);
+    diff.c = pow((x[0].c - x[1].c), 2);
+    return diff;
+}
+
+void dispd(point j)
+{
+    cout<< "the difference between the two points is : "<<sqrt(j.a+j.c+j.b);
+}
+
+
+int main()
+{
+
+    point x[2];
+        cout<< "Enter the 1st point coordinates: "<<endl;
+        cin >> x[0].a >> x[0].b >> x[0].c;
+
+            cout << endl;
+            cout << endl;
+
+        cout << "Enter the 2nd point coordinates: " << endl;
+            cin >> x[1].a >> x[1].b >> x[1].c;
+
+            dispd(sub(x,n));
+
+
+    return 0;
+}
+
+/**/

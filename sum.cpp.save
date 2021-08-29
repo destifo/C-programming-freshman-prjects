@@ -1,0 +1,19 @@
+#include <iostream>
+# include <cmath>
+using namespace std;
+
+int main()
+{
+    int n=1, sum=0, c;
+    cout<< "Enter the count"
+    cin
+
+    for(int i=0; i<=c; i++)
+    {
+        n = n++;
+        sum = sum + n;
+    }
+        cout<<sum<<endl;
+
+    return 0;
+}

@@ -1,0 +1,29 @@
+#include <iostream>
+#inculde <cmath>
+
+using namespace std;
+
+
+point x[2];
+
+struct point
+{
+    double a;
+    double b;
+    double c;
+};
+
+
+point add(point x[], 2)
+{
+    point res[2] = {0, 0};
+    res
+    return 
+}
+
+
+
+for(i = 0; i<2; i++)
+{
+    cout<<
+}

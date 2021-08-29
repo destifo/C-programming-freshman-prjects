@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+
+     double salary;
+cout << "Enter you salary: ";
+cin >> salary;
+int years = 0;
+while (salary < 50000) {
+salary = salary * 1.02;
+++years;
+}
+cout << "You need " << years << "years to get to 50K";
+
+
+
+
+    return 0;
+}

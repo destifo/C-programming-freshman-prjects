@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   string user="destifo";
+   string userid = 
+   cout << "student" <<user << ", report to the office"<<endl;
+   cout << "with the specified id no" << userid << endl;
+   return 0;
+}

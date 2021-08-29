@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int age;
+    cout<< "Enter your age: "<<endl;;
+    cout<< "Enter your name: ";
+    cin>> age>>getline(cin, name);
+
+    cout<< "you are "<< age<< " years old"<<endl;
+    cout<< "You are called "<<name;
+    {
+       string name;
+       cout<< "Enter your name: ";
+       
+    }
+
+    return 0;
+}

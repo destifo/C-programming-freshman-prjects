@@ -1,0 +1,24 @@
+#incude <iostream>
+#include <cmath>
+
+using namespace std;
+
+double ada(double x, double y = 0)
+{
+    return x+y;
+}
+
+double ada(double a)
+{
+    return a++;
+}
+
+
+int main ()
+{
+    
+    double b = ada(3);
+    co
+    
+    return 0;
+}
